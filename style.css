@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+
+  #gameCanvas{
+    max-height: 80%;
+  }
+
+  .header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  /* h1 {
+    text-align: center;
+  }
+  
+  #score {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  } */
+  
+  #gameCanvas {
+    border: 1px solid #000;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Styling the paddle */
+  .paddle {
+    width: 100px;
+    height: 10px;
+    background-color: #0095DD;
+  }
+  
+  /* Styling the bricks */
+  .brick {
+    width: 70px;
+    height: 20px;
+    margin: 2px;
+    background-color: #d9534f;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
